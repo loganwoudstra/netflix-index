@@ -25,7 +25,7 @@ Finally, we change the USD price to CAD, and then we have a all the information 
 ### 5. Calculating the Differnces
 Given that we live in Canada, our analysis will be centerted on Canadian data. Therefore, we will subtract the cost of a Canadian Netflix subscription from every country and look at the differences. Although our analysis collected data on 73 different countries, the below graph shows the difference of 20 countries. I ensured that the maximum value and the minimum value were displayed so we can get an indea of the wide difference in range. (NOTE: A standard montly subscription to Canadian Netflix is $17.33 CAD including tax)
 
-![differences_bar](differences_bar.jpg "Differences Bar")
+![differences_bar](differences_bar.png "Differences Bar")
 
 ### 6. External Factor
 To better understand why the cost of netflix varies so widely(around $20 CAD difference between the cheapest and most expensive country), we will look at the average monthly salary in each country. Perhaps countries with less expensive subcriptions have a lower average salary, so people are unable to afford the higher prices of other countries' subscriptions.
@@ -36,7 +36,7 @@ Unfortunately, the dataset for salaries was not as comprehensive as the previous
 
 Although the data about Netflix is in CAD, the data about salaries is in USD. Luckily, no conversion is needed since we will convert the two columns into standard units. As long as the units within a column are consistent, these different currencies should not matter.
 
-![differences_income_scatter](differences_income_scatter.jpg "Differences Income Scatter")
+![differences_income_scatter](differences_income_scatter.png "Differences Income Scatter")
 
 When we calculate the correlation coefficent for the data, we get a value of about 0.77. This suggests that there is a strong postive relation between the two variables. However, as we know, correlation does not imply causiation. There perhaps may be another external factoring in which these two values are dependant on. Nonetheless, this strong relation does provide us with some insight.
 
