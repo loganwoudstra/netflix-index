@@ -3,8 +3,8 @@ Netflix is the most popular streaming service in the world, having over 222 mill
 <p align="center">
 <img src="netflix.jpg" width="400">
 </p>
-
-
+\
+\
 
 ## How the Index was Created
 ### 1. Importing Data on Netflix
