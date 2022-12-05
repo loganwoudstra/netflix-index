@@ -1,6 +1,5 @@
-
 ## Netflix
-Netflix is the most popular streaming service in the world, being available in over 190 different countries. However, the price of Netflix is not the same among all of these different countries. Rather, they are adjusted to reflect the purchasing power of the local currency. Therefore, comparing the price of a standard monthly Netflix subscription will allow us to gauge the purchasing power parity of different currencies.
+Netflix is the most popular streaming service in the world, having over 222 million subscribers in 190 countries around the world. However, the price of Netflix is not the same among all of these different countries. Rather, they are adjusted to reflect the purchasing power of the local currency. Therefore, comparing the price of a standard monthly Netflix subscription will allow us to gauge the purchasing power parity of different currencies.
 
 <img src="netflix.jpg" width="400">
 
