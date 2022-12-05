@@ -19,7 +19,7 @@ Netflix is the most popular streaming service in the world, having over 222 mill
 | Canada           | 12.1 |
 
 ### 2. Cleaning the Data
-Luckily, the CSV file was already very clean. There were no missing values, no incorrect data types, nor any misentered values. However, the dataset used an ampersand(&) in country names such as 'Bosnia & Herzegovina'. However, the API's I will be using use the actual word 'and'. This easy change was the only cleaning that needed to be preformed on the data.
+Luckily, the CSV file was already very clean. There were no missing values, no incorrect data types, nor any formatting issues. However, the dataset uses an ampersand(&) in country names such as 'Bosnia & Herzegovina'. However, the API's I will be using use the actual word 'and'. This easy change was the only cleaning that needed to be preformed on the data.
 
 | Country        | USD Price          |
 |:-------------|:------------------|
