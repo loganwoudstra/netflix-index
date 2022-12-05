@@ -35,7 +35,7 @@ Once we have the currency code, we now need to find the conversion rate from USD
 
 Finally, we change the USD price to CAD, and then we have a all the information we need to compare the cost of a Netflix sunbscription.
 
-### 5. Calculating the Differnces
+### 5. Calculating the Differences
 Given that we live in Canada, our analysis will be centerted on Canadian data. Therefore, we will subtract the cost of a Canadian Netflix subscription from every country and look at the differences. Although our analysis collected data on 73 different countries, the below graph shows the difference of 20 countries. I ensured that the maximum value and the minimum value were displayed so we can get an indea of the wide difference in range. (NOTE: A standard montly subscription to Canadian Netflix is $17.33 CAD including tax)
 
 ![differences_bar](differences_bar.png "Differences Bar")
