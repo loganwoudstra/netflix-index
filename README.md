@@ -43,5 +43,17 @@ When we calculate the correlation coefficent for the data, we get a value of abo
 ## Conclusion
 Through this exploration, ...
 
+###### Header 6
+
+| head1        | head two          | three |
+|:-------------|:------------------|:------|
+| ok           | good swedish fish | nice  |
+| out of stock | good and plenty   | nice  |
+| ok           | good `oreos`      | hmm   |
+| ok           | good `zoute` drop | yumm  |
+
+### There's a horizontal rule below this.
+
+* * *
 
 
