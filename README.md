@@ -75,6 +75,6 @@ Unfortunately, the dataset for salaries was not as comprehensive as the previous
 It is important to take notice of the two extrema of the graph. As mentioned above, Pakistan has the cheaperest subcrition price, but it also has the lowest salary. Similiarly, Liechtenstein which is the country with the most expensive Netflix cost has the highest monthly salary. Therefore, the graph suggests that the two variables are strongly correlated to one another. This is confirmed when we look at the correlation coefficient, which comes out to around **0.77**. Obviously, there is a strong postive relation. However, we are not certain whether one is directly impacted by the other, becuase as we know, correlation does not imply causation.
 
 ## Conclusion
-So, if you're someone who actually pays for Netflix, it may be in your best interest to use a VPN and change your location to Pakistan. However, if you really want to save money you should sail the seven seas and pirate all of your content.
+So, if you're someone who actually pays for Netflix, it may be in your best interest to use a VPN and change your location to Pakistan. However, if you really want to save money you should just pirate all everything.
 
 
