@@ -52,7 +52,7 @@ Finally, we change the USD price to CAD, and then we have a all the information 
 | Canada                 | 16.23           |    16.23 CAD	     |
 
 ### 5. Calculating the Differences
-Given that we live in Canada, our analysis will be centerted on Canadian data. Therefore, we will subtract the cost of a Canadian Netflix subscription from every country and look at the differences. Although our analysis collected data on 73 different countries, the below graph shows the difference of 20 countries. I ensured that the maximum value and the minimum value were displayed so we can get an indea of the wide difference in range. (NOTE: A standard montly subscription to Canadian Netflix is $17.33 CAD including tax)
+Given that we live in Canada, our analysis will be centerted on Canadian data. Therefore, we will subtract the cost of a Canadian Netflix subscription from every country and look at the differences. Although our analysis collected data on 73 different countries, the below graph shows the difference of 20 countries. I ensured that the maximum value and the minimum value were displayed so we can get an idea of the wide difference in range.
 
 ![differences_bar](differences_bar.png "Differences Bar")
 
@@ -60,6 +60,12 @@ Given that we live in Canada, our analysis will be centerted on Canadian data. T
 To better understand why the cost of netflix varies so widely(around $20 CAD difference between the cheapest and most expensive country), we will look at the average monthly salary in each country. Perhaps countries with less expensive subcriptions have a lower average salary, so people are unable to afford the higher prices of other countries' subscriptions.
 
 This data for average salaries was scraped from [worlddata.info](https://www.worlddata.info/average-income.php). This data was the least clean, as the salaries were strings containing dollar signs($), commas(,), and spaces(). To make the data uasable these all needed to be removed so that the value could be converted into a float. 
+
+| Country        | Average Monthly Salary(USD)      |
+|:-------------|:------------------|
+| Algeria           | 524 $ |
+| Bosnia and Herzegovina | 898 $  |
+| Canada           | 4,026 $ |
 
 Unfortunately, the dataset for salaries was not as comprehensive as the previousy gathered data. Therefore, once the two tables were joined only 48 countries had information in both datasets. However, this size is still large enough to make predictions.
 
