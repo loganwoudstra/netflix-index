@@ -72,8 +72,9 @@ Unfortunately, the dataset for salaries was not as comprehensive as the previous
 
 ![differences_income_scatter](differences_income_scatter.png "Differences Income Scatter")
 
-When we calculate the correlation coefficent for the data, we get a value of about **0.77**. This suggests that there is a strong postive relation between the two variables.
+It is important to take notice of the two extrema of the graph. As mentioned above, Pakistan has the cheaperest subcrition price, but it also has the lowest salary. Similiarly, Liechtenstein which is the country with the most expensive Netflix cost has the highest monthly salary. Therefore, the graph suggests that the two variables are strongly correlated to one another. This is confirmed when we look at the correlation coefficient, which comes out to around **0.77**. Obviously, there is a strong postive relation. However, we are not certain whether salary has a directl impacted by Netflix prices, becuase as we know, correlation does not imply causation.
 
 ## Conclusion
-Through this exploration, it appears as if the price of Netflix is affected by the average salary of a country. This seems evident as we look at the two extrema of the datasets. Pakistan has the cheapest cost of a Netflix subscription but it also has the lowest monthly income. The same applies to Liechtenstein which has both the most expensive Netflix subscription and the highest monthly salary. Given that the correlation coefficent is rather high, this suggests there exists a strong relation. However, we know that correlation does not imply causation. Perhaps, they may be some third factor in which the both salary and Netflix prices are dependat upon.
+So, if you're someone who actually pays for Netflix, it may be in your best interest to use a VPN and change your location to Pakistan. However, if you really want to save money you should sail the seven seas and pirate all of your content.
+
 
