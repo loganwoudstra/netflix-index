@@ -1,5 +1,6 @@
 ## Netflix
-Netflix is the most popular streaming service in the world, having over 222 million subscribers in 190 differen countries. However, a Netflix subsrciption does not cost the same among all of these different countries. Rather, the prices are adjusted to reflect the purchasing power of the local currency. Therefore, a comparision of the price of a monthly standard Netflix subscription will allow us to create an inisghtful purchasing power parity index.
+Netflix is the most popular streaming service in the world, having over 222 million subscribers in 190 differen countries. This wide-spread popularity is what makes a Netflix subscription the perfect product to base a purchasing power parity index on. The differing prices for the same product will allow use to quite accurately guage the real exchange rate between different currencies.
+
 <p align="center">
 <img src="netflix.jpg" width="400">
 </p>
