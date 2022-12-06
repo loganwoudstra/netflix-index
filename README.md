@@ -69,8 +69,6 @@ This data for average salaries was scraped from [worlddata.info](https://www.wor
 
 Unfortunately, the dataset for salaries was not as comprehensive as the previousy gathered data. Therefore, once the two tables were joined only 48 countries had information in both datasets. However, this size is still large enough to make predictions.
 
-Although the data about Netflix is in CAD, the data about salaries is in USD. Luckily, no conversion is needed since we will convert the two columns into standard units. As long as the units within a column are consistent, these different currencies should not matter.
-
 ![differences_income_scatter](differences_income_scatter.png "Differences Income Scatter")
 
 When we calculate the correlation coefficent for the data, we get a value of about 0.77. This suggests that there is a strong postive relation between the two variables. However, as we know, correlation does not imply causiation. There perhaps may be another external factoring in which these two values are dependant on. Nonetheless, this strong relation does provide us with some insight.
