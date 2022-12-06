@@ -58,7 +58,7 @@ Given that we live in Canada, our analysis will be centerted on Canadian data. T
 ![differences_bar](differences_bar.png "Differences Bar")
 
 ### 6. External Factor
-To better understand why the cost of netflix varies so widely(around $20 CAD difference between the cheapest and most expensive country), we will look at the average monthly salary in each country. Perhaps countries with less expensive subcriptions have a lower average salary, so people are unable to afford the higher prices of other countries' subscriptions.
+To better understand why the cost of netflix varies so widely(around $20 CAD difference between the cheapest and most expensive country), we will look at the average monthly salary in each country. I hypothesize that countries with lower salaries will have cheaper subscriptions since people do not have as much money to spend on goods and services, like Netflix. Likewise, countries with higher salaries will have more expensive sunscriptions.
 
 This data for average salaries was scraped from [worlddata.info](https://www.worlddata.info/average-income.php). This data was the least clean, as the salaries were strings containing dollar signs($), commas(,), and spaces(). To make the data uasable these all needed to be removed so that the value could be converted into a float. 
 
