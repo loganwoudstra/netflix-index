@@ -32,12 +32,24 @@ Luckily, the CSV file was already very clean. There were no missing values, no i
 
 Now with the clean tax rate data, we can join the percentages with the table containing our Netflix pricing data. With some simple array multiplication using the NumPy library, we end up with the price of a Netflix subsciption including tax all in USD.
 
+| Country                | USD Price | GST % | USD(+GST) |
+|:-----------------------|:----------|:------|:----------|
+| Algeria                | 9.99      |   19  |    11.89  |
+| Bosnia and Herzegovina | 9.7       |   17  | 11.35     |
+| Canada                 | 12.1      |    5  |  12.7     |
+
 ### 4. Converting to Local Currencies
 To convert the USD price to the local price, we need to first attain the currency codes associated with each country (ex. Canada/CAD, France/EUR). To do so, we make an API call to [restcountries.com](https://restcountries.com).
 
 Once we have the currency code, we now need to find the conversion rate from USD to the local price. Again, a simple API call to [exchangerate.host](https://exchangerate.host/#/) will give us all the needed information.
 
 Finally, we change the USD price to CAD, and then we have a all the information we need to compare the cost of a Netflix sunbscription.
+
+| Country                | CAD Price(+GST) | Local Price(+GST) |
+|:-----------------------|:----------------|:------------------|
+| Algeria                | 15.2            |   1650.08 DZD	    | 
+| Bosnia and Herzegovina | 14.51           |   19.63 BAM       |
+| Canada                 | 16.23           |    16.23 CAD	     |
 
 ### 5. Calculating the Differences
 Given that we live in Canada, our analysis will be centerted on Canadian data. Therefore, we will subtract the cost of a Canadian Netflix subscription from every country and look at the differences. Although our analysis collected data on 73 different countries, the below graph shows the difference of 20 countries. I ensured that the maximum value and the minimum value were displayed so we can get an indea of the wide difference in range. (NOTE: A standard montly subscription to Canadian Netflix is $17.33 CAD including tax)
