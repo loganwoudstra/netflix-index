@@ -71,7 +71,7 @@ Unfortunately, the dataset for salaries was not as comprehensive as the previous
 
 ![differences_income_scatter](differences_income_scatter.png "Differences Income Scatter")
 
-When we calculate the correlation coefficent for the data, we get a value of about 0.77. This suggests that there is a strong postive relation between the two variables. However, as we know, correlation does not imply causiation. There perhaps may be another external factoring in which these two values are dependant on. Nonetheless, this strong relation does provide us with some insight.
+When we calculate the correlation coefficent for the data, we get a value of about **0.77**. This suggests that there is a strong postive relation between the two variables. However, as we know, correlation does not imply causiation. There perhaps may be another external factoring in which these two values are dependant on. Nonetheless, this strong relation does provide us with some insight.
 
 ## Conclusion
 Through this exploration, ...
