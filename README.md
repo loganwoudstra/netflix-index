@@ -1,5 +1,5 @@
 ## Netflix
-Netflix is the most popular streaming service in the world, having over 222 million subscribers in 190 different countries. This wide-spread popularity is what makes a standard Netflix subscription the perfect product to base a purchasing power parity index on. The differing prices for the same product will allow use to quite accurately guage the true exchange rate between different currencies.
+Netflix is the most popular streaming service in the world, having over 222 million subscribers in 190 different countries. This wide-spread popularity is what makes a standard Netflix subscription the perfect product to base a purchasing power parity index on. Since the prices differ greatly between countries for the exact same product, we are able to determine the true exchange rate for different currencies.
 
 <p align="center">
 <img src="netflix.jpg" width="400">
