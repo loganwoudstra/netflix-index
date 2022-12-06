@@ -71,8 +71,8 @@ Unfortunately, the dataset for salaries was not as comprehensive as the previous
 
 ![differences_income_scatter](differences_income_scatter.png "Differences Income Scatter")
 
-When we calculate the correlation coefficent for the data, we get a value of about **0.77**. This suggests that there is a strong postive relation between the two variables. However, as we know, correlation does not imply causiation. There perhaps may be another external factoring in which these two values are dependant on. Nonetheless, this strong relation does provide us with some insight.
+When we calculate the correlation coefficent for the data, we get a value of about **0.77**. This suggests that there is a strong postive relation between the two variables.
 
 ## Conclusion
-Through this exploration, ...
+Through this exploration, it appears as if the price of Netflix is affected by the average salary of a country. This seems evident as we look at the two extrema of the datasets. Pakistan has the cheapest cost of a Netflix subscription but it also has the lowest monthly income. The same applies to Liechtenstein which has both the most expensive Netflix subscription and the highest monthly salary. Given that the correlation coefficent is rather high, this suggests there exists a strong relation. However, we know that correlation does not imply causation. Perhaps, they may be some third factor in which the both salary and Netflix prices are depednat upon.
 
