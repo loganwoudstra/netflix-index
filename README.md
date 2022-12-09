@@ -1,3 +1,7 @@
+## Purchasing Power Parity
+Purchasing Power Parity (PPP) is economic theory explaining why the price of same product differs across different countries. Through indexes like The Big Mac Index, people compare the prices of a product around the world to determine the PPP of different currenices.
+
+
 ## Netflix
 Netflix is the most popular streaming service in the world, having over 222 million subscribers in 190 different countries. This wide-spread popularity is what makes a standard Netflix subscription the perfect product to base a purchasing power parity index on. Since the prices differ greatly between countries for the exact same product, we are able to determine the true exchange rate for different currencies.
 
@@ -60,7 +64,7 @@ Given that we live in Canada, our analysis will be centerted on Canadian data. T
 ### 6. External Factor
 To better understand why the cost of netflix varies so widely(around $20 CAD difference between the cheapest and most expensive country), we will look at the average monthly salary in each country. I hypothesize that countries with lower salaries will have cheaper subscriptions since people do not have as much money to spend on goods and services, like Netflix. Likewise, countries with higher salaries will have more expensive sunscriptions.
 
-This data for average salaries was scraped from [worlddata.info](https://www.worlddata.info/average-income.php). This data was the least clean, as the salaries were strings containing dollar signs($), commas(,), and spaces(). To make the data uasable these all needed to be removed so that the value could be converted into a float. 
+This data for average salaries was scraped from [worlddata.info](https://www.worlddata.info/average-income.php). This data was the least clean, as the salaries were strings containing dollar signs($), commas(,), and spaces(). To make the data usaable these all needed to be removed so that the value could be converted into a float. From there, we can multiply the column by the Canadian exchange rate and get the salaries in CAD.
 
 | Country        | Average Monthly Salary(USD)      |
 |:-------------|:------------------|
@@ -72,9 +76,11 @@ Unfortunately, the dataset for salaries was not as comprehensive as the previous
 
 ![differences_income_scatter](differences_income_scatter.png "Differences Income Scatter")
 
-It is important to take notice of the two extrema of the graph. As mentioned above, Pakistan has the cheaperest subcrition price, but it also has the lowest salary. Similiarly, Liechtenstein which is the country with the most expensive Netflix cost has the highest monthly salary. Therefore, the graph suggests that the two variables are strongly correlated to one another. This is confirmed when we look at the correlation coefficient, which comes out to around **0.77**. Obviously, there is a strong postive relation. However, we are not certain whether one is directly impacted by the other, becuase as we know, correlation does not imply causation.
+It is important to take notice of the two extrema of the graph. As mentioned above, Pakistan has the cheaperest subcrition price, but it also has the lowest salary. Similiarly, Liechtenstein which is the country with the most expensive Netflix cost has the highest monthly salary. Therefore, the graph suggests that the two variables are strongly correlated to one another. This is confirmed when we look at the correlation coefficient, which comes out to around **0.77**.
 
 ## Conclusion
+As mentioned above, Pakistan has the cheapest Netflix subscription and Lichtenstein has the most expensive. Given that the r-value was 0.77, this suggests there is a strong correlation between the cost of Netflix and the average monthly salary of a country. Therefore, it appears that the external factor makes an impact, however we must be careful to not conflate correlation with causation. No information interseting information was found as the data displays what you would expect. The price of Netflix in developed nations is higher, while the price is cheaper in developing countries.
+
 So, in conclusion, if you are someone who pays for Netflix, it may be in your best interest to use a VPN and change your location to Pakistan. However, there's an even better option that we have yet to discuss. Really, you should stop wasting your money on subscription services altogether and just pirate everything.
 
 
