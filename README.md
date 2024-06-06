@@ -1,3 +1,5 @@
+Completed for CMPUT 199 - Introduction to Data Science
+
 ## Purchasing Power Parity
 Purchasing Power Parity (PPP) is an economic theory explaining why the price of the same product differs across different countries. Through indexes like The Big Mac Index, people compare the prices of a product around the world in order determine the PPP of different currenices.
 
